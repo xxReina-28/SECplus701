@@ -93,7 +93,7 @@ Trunk Ports: switch to switch:
 TAAS/BABA:
 config t
 Int Range fa0/10-12
- shutdown
+ !shutdown
  no shutdown
  switchport trunk Encap Dot1Q
  switchport mode trunk
